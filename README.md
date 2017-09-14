@@ -25,8 +25,9 @@ When you are finished with lab, follow these steps to submit your work. Create o
 ---
 
 ## Resources  
-[Handlebars Docs](http://handlebarsjs.com/)
-[Template Literals MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
+- [Handlebars Docs](http://handlebarsjs.com/)
+- [Template Literals MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ---
 
