@@ -12,7 +12,7 @@ function Article (rawDataObj) {
 }
 
 Article.prototype.toHtml = function() {
-  // TODO: Use handlebars to render your articles.
+  // TODO done: Use handlebars to render your articles.
   //       - Get your template from the DOM.
   //       - Now "compile" your template with Handlebars.
   var sourceHTML = $('#template').html();
@@ -26,7 +26,7 @@ Article.prototype.toHtml = function() {
   this.publishStatus = this.publishedOn ? `published ${this.daysAgo} days ago` : '(draft)'; // this is a "ternary operator"
 
   var newRawHTML = actualTemplate(this);
-  // TODO: Use the function that Handlebars gave you to return your filled-in html template for THIS article.
+  // TODO done: Use the function that Handlebars gave you to return your filled-in html template for THIS article.
   return newRawHTML;
 
 };
